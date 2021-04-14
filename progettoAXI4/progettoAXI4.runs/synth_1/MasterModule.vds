@@ -1,0 +1,389 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Mar 12 11:18:38 2021
+# Process ID: 16872
+# Current directory: C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.runs/synth_1
+# Command line: vivado.exe -log MasterModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MasterModule.tcl
+# Log file: C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.runs/synth_1/MasterModule.vds
+# Journal file: C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MasterModule.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ProgettoEs/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilink/Vivado/2019.1/data/ip'.
+Command: synth_design -top MasterModule -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1816 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 591.711 ; gain = 186.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MasterModule' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:24]
+	Parameter DATA_WIDTH_MASTER bound to: 32 - type: integer 
+	Parameter STROBE_WIDTH_MASTER bound to: 4 - type: integer 
+	Parameter ADDRESS_WIDTH_MASTER bound to: 8 - type: integer 
+	Parameter S0 bound to: 3'b000 
+	Parameter READ bound to: 3'b001 
+	Parameter DATAREAD bound to: 3'b010 
+	Parameter WRITE bound to: 3'b011 
+	Parameter DATAWRITE bound to: 3'b100 
+	Parameter RESPONSE bound to: 3'b101 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:82]
+INFO: [Synth 8-6155] done synthesizing module 'MasterModule' (1#1) [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:24]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port wready
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[31]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[30]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[29]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[28]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[27]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[26]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[25]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[24]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[23]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[22]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[21]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[20]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[19]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[18]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[17]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[16]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[15]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[14]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[13]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[12]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[11]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[10]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[9]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[8]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[7]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[6]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[5]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[4]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[3]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[2]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[1]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[0]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rvalid
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 655.699 ; gain = 250.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 655.699 ; gain = 250.469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 655.699 ; gain = 250.469
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [Synth 8-327] inferring latch for variable 'awaddr_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:96]
+WARNING: [Synth 8-327] inferring latch for variable 'awvalid_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:95]
+WARNING: [Synth 8-327] inferring latch for variable 'wdata_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:85]
+WARNING: [Synth 8-327] inferring latch for variable 'wstrb_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:86]
+WARNING: [Synth 8-327] inferring latch for variable 'wvalid_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:87]
+WARNING: [Synth 8-327] inferring latch for variable 'bready_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:127]
+WARNING: [Synth 8-327] inferring latch for variable 'araddr_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:102]
+WARNING: [Synth 8-327] inferring latch for variable 'arprot_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:89]
+WARNING: [Synth 8-327] inferring latch for variable 'arvalid_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:100]
+WARNING: [Synth 8-327] inferring latch for variable 'rready_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:90]
+WARNING: [Synth 8-327] inferring latch for variable 'ss_reg' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:80]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 655.699 ; gain = 250.469
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module MasterModule 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[7] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[6] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[5] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[4] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[3] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[2] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port awaddr[1] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[7] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[6] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[5] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[4] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[3] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[2] driven by constant 0
+WARNING: [Synth 8-3917] design MasterModule has port araddr[1] driven by constant 0
+WARNING: [Synth 8-3331] design MasterModule has unconnected port wready
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[31]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[30]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[29]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[28]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[27]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[26]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[25]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[24]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[23]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[22]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[21]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[20]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[19]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[18]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[17]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[16]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[15]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[14]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[13]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[12]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[11]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[10]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[9]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[8]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[7]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[6]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[5]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[4]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[3]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[2]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[1]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rdata[0]
+WARNING: [Synth 8-3331] design MasterModule has unconnected port rvalid
+INFO: [Synth 8-3886] merging instance 'arprot_reg' (LD) to 'wstrb_reg[3]'
+INFO: [Synth 8-3886] merging instance 'wstrb_reg[0]' (LD) to 'wstrb_reg[3]'
+INFO: [Synth 8-3886] merging instance 'wstrb_reg[1]' (LD) to 'wstrb_reg[3]'
+INFO: [Synth 8-3886] merging instance 'wstrb_reg[2]' (LD) to 'wstrb_reg[3]'
+INFO: [Synth 8-3886] merging instance 'wstrb_reg[3]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[0]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[1]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[2]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[3]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[4]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[5]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[6]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[7]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[8]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[9]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[10]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[11]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[12]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[13]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[14]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[15]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[16]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[17]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[18]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[19]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[20]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[21]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[22]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[23]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[24]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[25]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[26]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[27]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[28]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[29]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3886] merging instance 'wdata_reg[30]' (LD) to 'wdata_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\wdata_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (wdata_reg[31]) is unused and will be removed from module MasterModule.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 809.785 ; gain = 404.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 810.707 ; gain = 405.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 810.707 ; gain = 405.477
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[2] with 1st driver pin 'ss_reg[2]__0/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:75]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[2] with 2nd driver pin 'ss_reg[2]/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[1] with 1st driver pin 'ss_reg[1]__0/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:75]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[1] with 2nd driver pin 'ss_reg[1]/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[0] with 1st driver pin 'ss_reg[0]__0/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:75]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ss[0] with 2nd driver pin 'ss_reg[0]/Q' [C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.srcs/sources_1/new/MasterModule.v:80]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        3|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT4 |     6|
+|4     |LUT5 |     3|
+|5     |LUT6 |     2|
+|6     |FDRE |     3|
+|7     |LD   |    10|
+|8     |IBUF |     8|
+|9     |OBUF |    58|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    93|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 94 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 811.730 ; gain = 406.500
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 926.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  LD => LDCE: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 94 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 926.613 ; gain = 526.332
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 926.613 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/baroj/Documents/GitHub/ProgettoES1/progettoAXI4/progettoAXI4.runs/synth_1/MasterModule.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MasterModule_utilization_synth.rpt -pb MasterModule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 12 11:19:00 2021...

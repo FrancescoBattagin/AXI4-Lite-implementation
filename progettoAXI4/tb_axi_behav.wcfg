@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_axi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_axi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="595000001fs"></ZoomEndTime>
+      <Cursor1Time time="595000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_axi/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_axi/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_axi/read_tb" type="logic">
+      <obj_property name="ElementShortName">read_tb</obj_property>
+      <obj_property name="ObjectShortName">read_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_axi/write_tb" type="logic">
+      <obj_property name="ElementShortName">write_tb</obj_property>
+      <obj_property name="ObjectShortName">write_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_axi/addr_tb" type="logic">
+      <obj_property name="ElementShortName">addr_tb</obj_property>
+      <obj_property name="ObjectShortName">addr_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_axi/done_tb" type="logic">
+      <obj_property name="ElementShortName">done_tb</obj_property>
+      <obj_property name="ObjectShortName">done_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="group105" type="group">
+      <obj_property name="label">READ</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_axi/AM0/arready_tb" type="logic">
+         <obj_property name="ElementShortName">arready_tb</obj_property>
+         <obj_property name="ObjectShortName">arready_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/arvalid_tb" type="logic">
+         <obj_property name="ElementShortName">arvalid_tb</obj_property>
+         <obj_property name="ObjectShortName">arvalid_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/arprot_tb" type="logic">
+         <obj_property name="ElementShortName">arprot_tb</obj_property>
+         <obj_property name="ObjectShortName">arprot_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/rready_tb" type="logic">
+         <obj_property name="ElementShortName">rready_tb</obj_property>
+         <obj_property name="ObjectShortName">rready_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/rvalid_tb" type="logic">
+         <obj_property name="ElementShortName">rvalid_tb</obj_property>
+         <obj_property name="ObjectShortName">rvalid_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/rdata_tb" type="array">
+         <obj_property name="ElementShortName">rdata_tb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata_tb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/araddr_tb" type="array">
+         <obj_property name="ElementShortName">araddr_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">araddr_tb[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group138" type="group">
+      <obj_property name="label">WRITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_axi/AM0/awvalid_tb" type="logic">
+         <obj_property name="ElementShortName">awvalid_tb</obj_property>
+         <obj_property name="ObjectShortName">awvalid_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/awready_tb" type="logic">
+         <obj_property name="ElementShortName">awready_tb</obj_property>
+         <obj_property name="ObjectShortName">awready_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/wready_tb" type="logic">
+         <obj_property name="ElementShortName">wready_tb</obj_property>
+         <obj_property name="ObjectShortName">wready_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/wvalid_tb" type="logic">
+         <obj_property name="ElementShortName">wvalid_tb</obj_property>
+         <obj_property name="ObjectShortName">wvalid_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/awaddr_tb" type="array">
+         <obj_property name="ElementShortName">awaddr_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">awaddr_tb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/wdata_tb" type="array">
+         <obj_property name="ElementShortName">wdata_tb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata_tb[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/wstrb_tb" type="array">
+         <obj_property name="ElementShortName">wstrb_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wstrb_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/bready_tb" type="logic">
+         <obj_property name="ElementShortName">bready_tb</obj_property>
+         <obj_property name="ObjectShortName">bready_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_axi/AM0/bvalid_tb" type="logic">
+         <obj_property name="ElementShortName">bvalid_tb</obj_property>
+         <obj_property name="ObjectShortName">bvalid_tb</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../progettoAXI4.srcs/sources_1/new/MasterModule.v" \
+"../../../../progettoAXI4.srcs/sources_1/new/SlaveModule.v" \
+"../../../../progettoAXI4.srcs/sources_1/new/AxiModule.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
